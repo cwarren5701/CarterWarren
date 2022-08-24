@@ -258,6 +258,39 @@
         }
       },
       {
+        "HashCode": 1483885091,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VideoPreview"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview"
+        }
+      },
+      {
+        "HashCode": -1776649698,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CarterWarrenHoops.Shared.Components.VideoPreview"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 3380624,
         "Kind": "Components.Component",
         "Name": "CarterWarrenHoops.Shared.MainLayout",
@@ -86986,6 +87019,11 @@
     {
       "FilePath": "/Users/CarterWarren/git/TestRepo/Shared/Components/VideoDisplay.razor",
       "TargetPath": "Shared\\Components\\VideoDisplay.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/CarterWarren/git/TestRepo/Shared/Components/VideoPreview.razor",
+      "TargetPath": "Shared\\Components\\VideoPreview.razor",
       "FileKind": "component"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aCdXuDlZx8RJS6z5AQmzCbU2ilfHzrsgGbPCYDvmXDc=",
+  "Hash": "IxWj2g/ussfngrvzGb9+hl9U6vneI50Wbb7sSN85130=",
   "Source": "CarterWarrenHoops",
   "BasePath": "/",
   "Mode": "Root",
@@ -6919,6 +6919,23 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/CarterWarren/git/TestRepo/wwwroot/imgs/Repl.jpg",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/TestRepo/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "imgs/Repl.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/Repl.jpg"
+    },
+    {
       "Identity": "/Users/CarterWarren/git/TestRepo/wwwroot/index.html",
       "SourceId": "CarterWarrenHoops",
       "SourceType": "Discovered",
@@ -6951,6 +6968,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sample-data/weather.json"
+    },
+    {
+      "Identity": "/Users/CarterWarren/git/TestRepo/wwwroot/videos/sample.mp4",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/TestRepo/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "videos/sample.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/videos/sample.mp4"
     }
   ]
 }
