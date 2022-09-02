@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "96kAsRR2F8DNIFVVNJcCuPuQD/45vqnClLbVfEqbXXe8hkJxgUjG8uoMGZ/edhp7ZyZqBMRMdlMI634OAw05ww==",
+  "dgSpecHash": "QWU0lBFr9iXx5P6AN91SLSnw3Qr4+BmtvDBFcwmIBSOVZ4nR4hKwgkIBifhqggWipkT4I7P2Gw7GFWUMdcIzcQ==",
   "success": true,
-  "projectFilePath": "/Users/CarterWarren/git/TestRepo/CarterWarrenHoops.csproj",
+  "projectFilePath": "/Users/CarterWarren/git/CarterWarren/CarterWarrenHoops.csproj",
   "expectedPackageFiles": [
     "/Users/CarterWarren/.nuget/packages/microsoft.aspnetcore.authorization/6.0.7/microsoft.aspnetcore.authorization.6.0.7.nupkg.sha512",
     "/Users/CarterWarren/.nuget/packages/microsoft.aspnetcore.components/6.0.7/microsoft.aspnetcore.components.6.0.7.nupkg.sha512",

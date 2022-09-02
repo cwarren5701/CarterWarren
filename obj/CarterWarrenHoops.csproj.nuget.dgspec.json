@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/CarterWarren/git/TestRepo/CarterWarrenHoops.csproj": {}
+    "/Users/CarterWarren/git/CarterWarren/CarterWarrenHoops.csproj": {}
   },
   "projects": {
-    "/Users/CarterWarren/git/TestRepo/CarterWarrenHoops.csproj": {
+    "/Users/CarterWarren/git/CarterWarren/CarterWarrenHoops.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/CarterWarren/git/TestRepo/CarterWarrenHoops.csproj",
+        "projectUniqueName": "/Users/CarterWarren/git/CarterWarren/CarterWarrenHoops.csproj",
         "projectName": "CarterWarrenHoops",
-        "projectPath": "/Users/CarterWarren/git/TestRepo/CarterWarrenHoops.csproj",
+        "projectPath": "/Users/CarterWarren/git/CarterWarren/CarterWarrenHoops.csproj",
         "packagesPath": "/Users/CarterWarren/.nuget/packages/",
-        "outputPath": "/Users/CarterWarren/git/TestRepo/obj/",
+        "outputPath": "/Users/CarterWarren/git/CarterWarren/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/CarterWarren/.nuget/NuGet/NuGet.Config"
