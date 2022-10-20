@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QaDEGh6+E0VtHgq3suTDsDdioa8Qrn00fXUxcZQs6Uw=",
+  "Hash": "nrVWiu7uyw3pe22mtkMqYEy4MXU6MommTc+sYqOwnRs=",
   "Source": "CarterWarrenHoops",
   "BasePath": "/",
   "Mode": "Root",
@@ -7036,6 +7036,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/videos/Sophomore-Chadwick-Highlights-2021.mp4"
+    },
+    {
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/videos/West Coast Elite Sophomore Full AAU highlights(2021) .mp4",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "videos/West Coast Elite Sophomore Full AAU highlights(2021) .mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/videos/West Coast Elite Sophomore Full AAU highlights(2021) .mp4"
     }
   ]
 }
