@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PjzSNKrBfXDmFqwA8/YC8qIEUtPtIXLHQqeJVsYxfeE=",
+  "Hash": "OgpO1XGX58+g1GQxB5BiUFwNFOKOMP2BRaF0mOpXpGA=",
   "Source": "CarterWarrenHoops",
   "BasePath": "/",
   "Mode": "Root",
@@ -6951,6 +6951,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/imgs/Repl.jpg"
+    },
+    {
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/imgs/Sample bball photo.png",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "imgs/Sample bball photo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/Sample bball photo.png"
     },
     {
       "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/index.html",
