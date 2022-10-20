@@ -107,39 +107,6 @@
         }
       },
       {
-        "HashCode": -815303495,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Pages.Basketball",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Basketball"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Pages.Basketball"
-        }
-      },
-      {
-        "HashCode": 1317104621,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Pages.Basketball",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CarterWarrenHoops.Pages.Basketball"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Pages.Basketball",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -319371498,
         "Kind": "Components.Component",
         "Name": "CarterWarrenHoops.Shared.Components.VideoDisplay",
