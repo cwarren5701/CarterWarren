@@ -107,39 +107,6 @@
         }
       },
       {
-        "HashCode": -1621078022,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Pages.Basketball",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Basketball"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Pages.Basketball"
-        }
-      },
-      {
-        "HashCode": -242307315,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Pages.Basketball",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CarterWarrenHoops.Pages.Basketball"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Pages.Basketball",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1182926695,
         "Kind": "Components.Component",
         "Name": "CarterWarrenHoops.Pages.Videos.SophomoreChadwick",
@@ -169,6 +136,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "CarterWarrenHoops.Pages.Videos.SophomoreChadwick",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1621078022,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Pages.Basketball",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Basketball"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Pages.Basketball"
+        }
+      },
+      {
+        "HashCode": -242307315,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Pages.Basketball",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CarterWarrenHoops.Pages.Basketball"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Pages.Basketball",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -302,6 +302,39 @@
         }
       },
       {
+        "HashCode": -1801356773,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VideoPreview"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview"
+        }
+      },
+      {
+        "HashCode": -2005954951,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CarterWarrenHoops.Shared.Components.VideoPreview"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1785880107,
         "Kind": "Components.Component",
         "Name": "CarterWarrenHoops.Shared.Components.VideoDisplay",
@@ -383,39 +416,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoDisplay",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1801356773,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VideoPreview"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview"
-        }
-      },
-      {
-        "HashCode": -2005954951,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CarterWarrenHoops.Shared.Components.VideoPreview"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
