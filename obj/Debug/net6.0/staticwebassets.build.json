@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QaDEGh6+E0VtHgq3suTDsDdioa8Qrn00fXUxcZQs6Uw=",
+  "Hash": "j5alUx8Ns2i+y8ngxH1xKrmifuIovLVOHpKvLmtxpc4=",
   "Source": "CarterWarrenHoops",
   "BasePath": "/",
   "Mode": "Root",
@@ -7004,6 +7004,23 @@
       "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     },
     {
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/styles.css",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    },
+    {
       "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/videos/sample.mp4",
       "SourceId": "CarterWarrenHoops",
       "SourceType": "Discovered",
@@ -7036,6 +7053,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/videos/Sophomore-Chadwick-Highlights-2021.mp4"
+    },
+    {
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/videos/West Coast Elite Sophomore Full AAU highlights(2021) .mp4",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "videos/West Coast Elite Sophomore Full AAU highlights(2021) .mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/videos/West Coast Elite Sophomore Full AAU highlights(2021) .mp4"
     }
   ]
 }
