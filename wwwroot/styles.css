@@ -1,0 +1,13 @@
+.hover-shadow {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: none;
+    transition: ease 0.5s;
+}
+
+.hover-shadow:hover {
+    top: -2px;
+    left: -2px;
+    box-shadow: 5px 5px 25px black;
+}
