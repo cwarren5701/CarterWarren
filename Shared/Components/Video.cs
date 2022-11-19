@@ -3,4 +3,5 @@ public class Video {
     public string PreviewImg {get; set; } = "/imgs/Repl.jpg";
     public string Title {get; set; } = "Title";
     public string SubTitle {get; set; } = "SubTitle";
+    public string Href {get; set; } = "/";
 }
