@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nrVWiu7uyw3pe22mtkMqYEy4MXU6MommTc+sYqOwnRs=",
+  "Hash": "j5alUx8Ns2i+y8ngxH1xKrmifuIovLVOHpKvLmtxpc4=",
   "Source": "CarterWarrenHoops",
   "BasePath": "/",
   "Mode": "Root",
@@ -7002,6 +7002,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sample-data/weather.json"
+    },
+    {
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/styles.css",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
     },
     {
       "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/videos/sample.mp4",
