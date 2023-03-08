@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j5alUx8Ns2i+y8ngxH1xKrmifuIovLVOHpKvLmtxpc4=",
+  "Hash": "3KaeWGIVUNmWMg2K2WxFleVecjLbCdTIpvvUxHqHULs=",
   "Source": "CarterWarrenHoops",
   "BasePath": "/",
   "Mode": "Root",
@@ -6953,12 +6953,12 @@
       "OriginalItemSpec": "wwwroot/imgs/Repl.jpg"
     },
     {
-      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/imgs/Sample bball photo.png",
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/imgs/SophomoreChadwick.png",
       "SourceId": "CarterWarrenHoops",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "imgs/Sample bball photo.png",
+      "RelativePath": "imgs/SophomoreChadwick.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -6967,7 +6967,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/imgs/Sample bball photo.png"
+      "OriginalItemSpec": "wwwroot/imgs/SophomoreChadwick.png"
+    },
+    {
+      "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/imgs/SophomoreWCE.png",
+      "SourceId": "CarterWarrenHoops",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/CarterWarren/git/CarterWarren/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "imgs/SophomoreWCE.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/SophomoreWCE.png"
     },
     {
       "Identity": "/Users/CarterWarren/git/CarterWarren/wwwroot/index.html",
