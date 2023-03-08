@@ -197,13 +197,13 @@
       "mscorlib.dll": "sha256-wmk56X5dbt29rrFZKEFpOFjotkZA+JSxA4fqkgmBsOU=",
       "netstandard.dll": "sha256-CvlfDmNgFRYT7l\/xZKu91FlbTFyLG\/5cH7YX63k9ghE=",
       "System.Private.CoreLib.dll": "sha256-aF4imeOpA59D6F5qCLabzkeY7MvRZzNYzavhB\/bdxvM=",
-      "CarterWarrenHoops.dll": "sha256-xGTMXsJIRnYhZzZtPl73Yv4D0NWGj9iFzkATeuXne0Q="
+      "CarterWarrenHoops.dll": "sha256-L1DsxclSi9PfkDdtvMH71Y2QMGjfU\/VCuykrvviOc5k="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "CarterWarrenHoops.pdb": "sha256-gEPaogi1dRRZVLOh+pB4lCy8NZLClBge41jiT67HPYU="
+      "CarterWarrenHoops.pdb": "sha256-JBOs3nUDV+TjA3oZZeInlhEmswbCNpLRi95ru+SMxO4="
     },
     "runtime": {
       "dotnet.6.0.7.eqg65pdnmv.js": "sha256-pvJcJ6jtDSfxgXm03QYRTm4aAi9PSzMSJODReHtvASY=",
