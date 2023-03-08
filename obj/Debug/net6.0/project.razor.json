@@ -269,59 +269,6 @@
         }
       },
       {
-        "HashCode": -279514295,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Shared.Components.VideoDisplay",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VideoDisplay"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ThisVideo",
-            "TypeName": "Video",
-            "Metadata": {
-              "Common.PropertyName": "ThisVideo"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoDisplay"
-        }
-      },
-      {
-        "HashCode": 1147749327,
-        "Kind": "Components.Component",
-        "Name": "CarterWarrenHoops.Shared.Components.VideoDisplay",
-        "AssemblyName": "CarterWarrenHoops",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CarterWarrenHoops.Shared.Components.VideoDisplay"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ThisVideo",
-            "TypeName": "Video",
-            "Metadata": {
-              "Common.PropertyName": "ThisVideo"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoDisplay",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 514474199,
         "Kind": "Components.Component",
         "Name": "CarterWarrenHoops.Shared.Components.VideoPreview",
@@ -371,6 +318,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoPreview",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -279514295,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Shared.Components.VideoDisplay",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VideoDisplay"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ThisVideo",
+            "TypeName": "Video",
+            "Metadata": {
+              "Common.PropertyName": "ThisVideo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoDisplay"
+        }
+      },
+      {
+        "HashCode": 1147749327,
+        "Kind": "Components.Component",
+        "Name": "CarterWarrenHoops.Shared.Components.VideoDisplay",
+        "AssemblyName": "CarterWarrenHoops",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CarterWarrenHoops.Shared.Components.VideoDisplay"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ThisVideo",
+            "TypeName": "Video",
+            "Metadata": {
+              "Common.PropertyName": "ThisVideo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "CarterWarrenHoops.Shared.Components.VideoDisplay",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
