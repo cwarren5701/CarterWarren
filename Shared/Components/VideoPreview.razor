@@ -1,12 +1,16 @@
 <MudStack AlignItems="AlignItems.Center">
-    <MudLink Href="/SophomoreChadwick" Underline="Underline.None">
-        @* when you hover over the preview, the shadow is a box, not rounded *@
+    <MudLink Href="#" Underline="Underline.None">
         <MudCard Class="mb-9 mr-6 ml-6 rounded-xl hover-shadow" Style="width: 350px; height: 300px;" Elevation="0">
-            <MudCardMedia Style="height: 210px" Image="/imgs/Sample bball photo.png"></MudCardMedia>
+            <MudCardMedia Style="height: 210px" Image=@ThisVideo.PreviewImg></MudCardMedia>
             <MudCardContent>
-                <MudText Typo="Typo.h6"></MudText>
-                <MudText>Chadwick School (2020-2021)</MudText>
+                <MudText Typo="Typo.h6">@ThisVideo.Title</MudText>
+                <MudText>@ThisVideo.SubTitle</MudText>
             </MudCardContent>
         </MudCard>
     </MudLink>
 </MudStack>
+
+@code {
+    [Parameter]
+    public Video ThisVideo {get; set;} = new Video(); 
+}
