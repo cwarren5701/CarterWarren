@@ -30,51 +30,22 @@
     <MudTabPanel Text="AP">
 
         <MudExpansionPanels>
-            <MudExpansionPanel Text="AP Computer Science Principles Score Report" MaxHeight="150">
+            <MudExpansionPanel Text="AP Computer Science Principles Score Report - Score: 4" MaxHeight="150">
                 <MudImage Src="" Alt="AP Computer Science Principles Score Report" Elevation="25" Class="rounded-lg"/>
             </MudExpansionPanel>
-            <MudExpansionPanel Text="AP Computer Science A Score Report" MaxHeight="500">
+            <MudExpansionPanel Text="AP Computer Science A Score Report - Score: 4" MaxHeight="500">
                 <MudImage Src="" Alt="AP Computer Science A Score Report" Elevation="25" Class="rounded-lg"/>
             </MudExpansionPanel>
-            <MudExpansionPanel Text="AP English 11 Score Report" MaxHeight="150">
+            <MudExpansionPanel Text="AP English 11 Score Report - Score: 4" MaxHeight="150">
                 <MudImage Src="" Alt="AP English 11 Score Report" Elevation="25" Class="rounded-lg"/>
             </MudExpansionPanel>
-            <MudExpansionPanel Text="AP Biology Score Report" MaxHeight="500">
+            <MudExpansionPanel Text="AP Biology Score Report - Score: 4" MaxHeight="500">
                 <MudImage Src="" Alt="AP Biology Score Report" Elevation="25" Class="rounded-lg"/>
             </MudExpansionPanel>
         </MudExpansionPanels>
     </MudTabPanel>
 </MudTabs>
 
-
-<MudTable Items="@APScores" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
-    <HeaderContent>
-        <MudTh>Nr</MudTh>
-        <MudTh>Sign</MudTh>
-        <MudTh>Name</MudTh>
-        <MudTh>Position</MudTh>
-        <MudTh>Molar mass</MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd DataLabel="Nr">@context.Number</MudTd>
-        <MudTd DataLabel="Sign">@context.Sign</MudTd>
-        <MudTd DataLabel="Name">@context.Name</MudTd>
-        <MudTd DataLabel="Position" HideSmall="_hidePosition">@context.Position</MudTd>
-        <MudTd DataLabel="Molar mass">@context.Molar</MudTd>
-    </RowTemplate>
-</MudTable>
-
-@code { 
-    APScore compSciP = new APScore("AP Computer Science Principles");
-    APScore[] scoresArr = new APScore[4];
-    
-    scoresArr[0] = compSciP;
-    scoresArr[1] = new APScore("AP Computer Science A");
-    scorcesArr[2] = new APScore("AP English 11");
-    scoresArr[3] = new APScore("AP Biology");
-
-
-}
 
 
 
