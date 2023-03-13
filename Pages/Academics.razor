@@ -2,5 +2,79 @@
 
 <PageTitle>Academics</PageTitle>
 <MudText Class="mt-n16 pt-0" Align="Align.Center" Typo="Typo.h2" >Academics</MudText>
-<MudText Class="mt-n2 mb-12" Align="Align.Center" Typo="Typo.body1" >Transcripts and Test Scores</MudText>
+<MudTabs Elevation="2" Rounded="true" Centered="true" ApplyEffectsToContainer="true" PanelClass="pa-6">
+    <MudTabPanel Text="Transcripts">
+        <MudExpansionPanels>
+            <MudExpansionPanel Text="Chadwick School - 9th through 11th" MaxHeight="150">
+                <MudImage Src="imgs/ChadwickTranscript.pdf" Alt="Chadwick Transcript" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="Hotchkiss School - 11th (reclass year)" MaxHeight="500">
+                <MudImage Src="imgs/HotchkissTranscript.pdf" Alt="Hotchkiss Transcript" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+    </MudTabPanel>
+    <MudTabPanel Text="SAT">
+        <MudText Typo="Typo.h6" Color="Color.Primary" Style="font-weight:bold">Superscore</MudText>
+        <MudText Typo="Typo.h1">1440</MudText>
+        <MudText Color="Color.Primary" Style="font-weight: bold">Math: 720</MudText>
+        <MudText Color="Color.Primary" Class="mb-4" Style="font-weight: bold">Reading/Writing: 720</MudText>
+        <MudExpansionPanels>
+            <MudExpansionPanel Text="December 2021 Score Report" MaxHeight="150">
+                <MudImage Src="imgs/DECSATscorereport.pdf" Alt="December 2021 Score Report" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="August 2022 Score Report" MaxHeight="500">
+                <MudImage Src="imgs/AUGSATscorereport.pdf" Alt="August 2022 Score Report" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+    </MudTabPanel>
+    <MudTabPanel Text="AP">
+
+        <MudExpansionPanels>
+            <MudExpansionPanel Text="AP Computer Science Principles Score Report" MaxHeight="150">
+                <MudImage Src="" Alt="AP Computer Science Principles Score Report" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="AP Computer Science A Score Report" MaxHeight="500">
+                <MudImage Src="" Alt="AP Computer Science A Score Report" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="AP English 11 Score Report" MaxHeight="150">
+                <MudImage Src="" Alt="AP English 11 Score Report" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="AP Biology Score Report" MaxHeight="500">
+                <MudImage Src="" Alt="AP Biology Score Report" Elevation="25" Class="rounded-lg"/>
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+    </MudTabPanel>
+</MudTabs>
+
+
+<MudTable Items="@APScores" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+    <HeaderContent>
+        <MudTh>Nr</MudTh>
+        <MudTh>Sign</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Position</MudTh>
+        <MudTh>Molar mass</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Nr">@context.Number</MudTd>
+        <MudTd DataLabel="Sign">@context.Sign</MudTd>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="Position" HideSmall="_hidePosition">@context.Position</MudTd>
+        <MudTd DataLabel="Molar mass">@context.Molar</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code { 
+    APScore compSciP = new APScore("AP Computer Science Principles");
+    APScore[] scoresArr = new APScore[4];
+    
+    scoresArr[0] = compSciP;
+    scoresArr[1] = new APScore("AP Computer Science A");
+    scorcesArr[2] = new APScore("AP English 11");
+    scoresArr[3] = new APScore("AP Biology");
+
+
+}
+
+
 
