@@ -3,18 +3,10 @@
 <MudText Class="mt-n16 pt-0" Align="Align.Center" Typo="Typo.h2" >Basketball</MudText>
 <MudText Class="mt-n2 mb-12" Align="Align.Center" Typo="Typo.body1" >Highlights & Full Games</MudText>
 <MudGrid Justify="Justify.Center">
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
-    <VideoPreview></VideoPreview>
+    @foreach (Video video in MockDatabase.Videos)
+    {
+        <VideoPreview ThisVideo="@video"></VideoPreview>
+    }
 </MudGrid>
 
 
