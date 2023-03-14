@@ -8,11 +8,17 @@
     <MudAppBar Elevation="0">
         <MudSpacer />
         <MudButtonGroup Color="Color.Default" Variant="Variant.Text" Class="mr-n8">
-            <MudIconButton Href="/" Icon="@Icons.Filled.SportsBasketball" Color="Color.Warning"/>
-            <MudIconButton Href="/academics" Icon="@Icons.Filled.MenuBook" Color="Color.Primary"/>
+            <MudTooltip Text="Basketball">
+                <MudIconButton Href="/" Icon="@Icons.Filled.SportsBasketball" Color="Color.Warning"/>
+            </MudTooltip>
+            <MudTooltip Text="Academics">
+                <MudIconButton Href="/academics" Icon="@Icons.Filled.MenuBook" Color="Color.Primary"/>
+            </MudTooltip>
         </MudButtonGroup>
         <MudSpacer />
-        <MudIconButton Icon="@Icons.Material.Filled.Person" Class="mr-n3" OnClick="OpenOverlay"/>
+        <MudTooltip Text="About Me" Class="mt-n2">
+            <MudIconButton Icon="@Icons.Material.Filled.Person" Class="mr-n3" OnClick="OpenOverlay"/>
+        </MudTooltip>
     </MudAppBar>
     <MudMainContent>
         <MudContainer MaxWidth="MaxWidth.Large" Class="my-16 pt-16">
