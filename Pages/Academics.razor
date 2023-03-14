@@ -1,0 +1,35 @@
+@page "/academics"
+
+<PageTitle>Academics</PageTitle>
+<MudText Class="mt-n16 pt-0" Align="Align.Center" Typo="Typo.h2" >Academics</MudText>
+<MudTabs Elevation="4" Rounded="true" Centered="true" ApplyEffectsToContainer="true" PanelClass="pa-6" Position="Position.Top">
+    <MudTabPanel Text="Transcripts">
+        <MudExpansionPanels>
+            <ImageExpansionPanel Title="Chadwick School - 9th through 11th" Alt="Chadwick Transcript" Src="imgs/ChadwickTranscript.png"/>
+            <ImageExpansionPanel Title="Hotchkiss School - 11th (reclass year)" Alt="Hotchkiss Transcript" Src="imgs/HotchkissTranscript.png"/>
+        </MudExpansionPanels>
+    </MudTabPanel>
+    <MudTabPanel Text="SAT">
+        <MudPaper Elevation="4" Class="pl-3 pr-3 pt-2 pb-2 mb-3">
+            <MudText Typo="Typo.h6" Color="Color.Primary" Style="font-weight:bold">Superscore</MudText>
+            <MudText Typo="Typo.h1" Class="mt-n3 mb-n3">1440</MudText>
+            <MudDivider Vertical="true" Class=""></MudDivider>
+            <MudText Color="Color.Primary" Class="d-inline" Style="font-weight: bold">Math: </MudText>
+            <MudText Class="d-inline">720</MudText>
+            <MudText></MudText>
+            <MudText Color="Color.Primary" Class="mb-4 d-inline" Style="font-weight: bold">Reading/Writing: </MudText>
+            <MudText Class="d-inline">720</MudText>
+        </MudPaper>
+        <MudExpansionPanels>
+            <ImageExpansionPanel Title="December 2021 Score Report" Alt="December 2021 Score Report" Src="imgs/DECSATscorereport.png"/>
+            <ImageExpansionPanel Title="August 2022 Score Report" Alt="August 2022 Score Report" Src="imgs/AUGSATscorereport.png"/>
+        </MudExpansionPanels>
+    </MudTabPanel>
+    <MudTabPanel Text="AP">
+        <MudImage Src="imgs/APscorereport.png" Alt="AP score report" Elevation="25" Class="rounded-lg center" Width="850" Fluid="true"/>
+    </MudTabPanel>
+</MudTabs>
+
+
+
+
