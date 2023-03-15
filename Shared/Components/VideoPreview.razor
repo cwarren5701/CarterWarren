@@ -1,12 +1,16 @@
 <MudStack AlignItems="AlignItems.Center">
-    <MudButton Class="mb-9 mr-6 ml-6">
-        <MudCard Class="rounded-xl" Style="width: 355px; height: 300px;" Elevation="0">
-            <MudCardMedia Style="height: 210px" Image="/imgs/Repl.jpg"></MudCardMedia>
+    <MudLink Href=@ThisVideo.Href Underline="Underline.None">
+        <MudCard Class="mb-9 mr-6 ml-6 rounded-xl hover-shadow" Style="width: 350px; height: 300px;" Elevation="0">
+            <MudCardMedia Style="height: 210px" Image=@ThisVideo.PreviewImg></MudCardMedia>
             <MudCardContent>
-                <MudText Typo="Typo.h6">Sophomore Highlights</MudText>
-                <MudText>Chadwick School (2020-2021)</MudText>
+                <MudText Typo="Typo.h6"><b>@ThisVideo.Title</b></MudText>
+                <MudText>@ThisVideo.SubTitle</MudText>
             </MudCardContent>
         </MudCard>
-    </MudButton>
-    <MudIcon Class="mb-n16" Icon="@Icons.Material.Filled.PlayCircle" Color="Color.Primary"></MudIcon>
+    </MudLink>
 </MudStack>
+
+@code {
+    [Parameter]
+    public Video ThisVideo {get; set;} = new Video(); 
+}

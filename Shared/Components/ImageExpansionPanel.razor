@@ -1,0 +1,12 @@
+<MudExpansionPanel Text=@Title MaxHeight="2000">
+    <MudImage Src=@Src Alt=@Alt Elevation="25" Class="rounded-lg center" Width="850" Fluid="true"/>
+</MudExpansionPanel>
+
+@code {
+    [Parameter]
+    public String Title {get; set;} = "Title";
+    [Parameter]
+    public String Alt {get; set;} = "Alt";
+    [Parameter]
+    public String Src {get; set;} = "";
+}
